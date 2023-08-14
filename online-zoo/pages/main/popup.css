@@ -1,0 +1,47 @@
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #00000055;
+    top: 0;left: 0;
+    z-index: 5;
+    opacity: 0; 
+     visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+transition: all 0.8s ease 0s;
+
+}
+.popup_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup_content{
+    background-color: aliceblue;
+    max-width: 320px;
+    font-size: 20px;
+   padding: 20px 36px 17px 17px;
+   position: relative;
+   cursor: pointer
+
+}
+.popup_close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.open_popup{
+opacity: 1;
+visibility: visible;
+}
+.testimonials_link_popup{
+    padding: 10px;
+    width: 267px;
+    border-radius: 20px;
+}
